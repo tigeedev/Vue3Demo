@@ -8,6 +8,11 @@
 
 <script setup lang="ts">
 import logo from '@/assets/img/logo.png'
+
+const router = useRouter()
+console.log("测试router",router);
+
+
 </script>
 
 <style lang="less" scoped>
